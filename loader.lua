@@ -1,5 +1,5 @@
 -- loader.lua
-local SCRIPT_URL = "ใส่_URL_Raw_ของไฟล์_main.lua"
+local SCRIPT_URL = "https://raw.githubusercontent.com/GTSODSIRI/LootToForge/main/main.lu"
 
 local success, result = pcall(function()
     local source = game:HttpGet(SCRIPT_URL)
