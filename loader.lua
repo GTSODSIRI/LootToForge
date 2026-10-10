@@ -1,5 +1,5 @@
 -- loader.lua
-local SCRIPT_URL = "https://raw.githubusercontent.com/GTSODSIRI/LootToForge/main/main.lu"
+local SCRIPT_URL = "https://raw.githubusercontent.com/GTSODSIRI/LootToForge/main/main.lua"
 
 local success, result = pcall(function()
     local source = game:HttpGet(SCRIPT_URL)
